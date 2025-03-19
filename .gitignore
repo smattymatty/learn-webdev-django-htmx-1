@@ -1,0 +1,68 @@
+### Database
+*.sqlite3
+*.db
+
+### Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.installed.cfg
+.eggs/
+dist/
+build/
+develop-eggs/
+
+### Virtual Environment
+/venv/
+venv/
+ENV/
+env/
+.env/
+.venv/
+virtualenv/
+
+### Django
+media/
+static/collected/
+local_settings.py
+db.settings.py
+*.log
+
+### Environment variables & secrets
+.env
+.env.local
+.env.development
+.env.production
+secrets.json
+
+### IDE/Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vs/
+*.sublime-workspace
+*.sublime-project
+
+### OS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+### Project specific
+.coverage
+htmlcov/
+.pytest_cache/
+node_modules/
+coverage/
+
+### Deployment
+*.pyc
+.python-version

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+        <title>{% block title %} Base {% endblock %}</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <main>
+            {% block content %}
+                This is my website
+            {% endblock %}
+        </main>
+        <footer>
+            <p>&copy; 2025 My Website</p>
+        </footer>
+    </body>
+</html>
